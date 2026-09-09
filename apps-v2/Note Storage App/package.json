@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "retool": {
+    "app": {
+      "uuid": "faa3daa0-ac23-11f1-b42c-d3225b44138e",
+      "name": "Note Storage App",
+      "resourceReferencesByFile": {
+        "/backend/notes/createNote.ts": [
+          {
+            "name": "5e2914e6-d518-45dc-af13-9c1ea4fed300",
+            "displayName": "retool_db",
+            "type": "retoolDb"
+          }
+        ],
+        "/backend/notes/deleteNote.ts": [
+          {
+            "name": "5e2914e6-d518-45dc-af13-9c1ea4fed300",
+            "displayName": "retool_db",
+            "type": "retoolDb"
+          }
+        ],
+        "/backend/notes/listNotes.ts": [
+          {
+            "name": "5e2914e6-d518-45dc-af13-9c1ea4fed300",
+            "displayName": "retool_db",
+            "type": "retoolDb"
+          }
+        ],
+        "/backend/notes/updateNote.ts": [
+          {
+            "name": "5e2914e6-d518-45dc-af13-9c1ea4fed300",
+            "displayName": "retool_db",
+            "type": "retoolDb"
+          }
+        ]
+      },
+      "appIdentifier": "note-storage-app"
+    }
+  }
+}
